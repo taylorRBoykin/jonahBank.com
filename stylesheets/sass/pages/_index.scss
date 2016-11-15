@@ -1,1 +1,29 @@
 // Splash Index SCSS
+
+
+#navBar {
+
+  width: 100vw;
+  height: 60px;
+  border: 1px solid black;
+
+}
+
+#logo {
+
+  height: 60px;
+  width: 100px;
+  float: left;
+  background: url('../../imgs/jonahLogo.png') no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+h4 {
+
+  float: right;
+  display: inline-block;
+  text-align: center;
+  font-family: roboto, sans-serf;
+  font-size: 20px;
+}
