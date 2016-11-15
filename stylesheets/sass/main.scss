@@ -9,16 +9,3 @@
 
 @import 'pages/index';
 @import 'pages/footerform';
-
-body {
-
-
-}
-
-.content {
-  @include mainContentWrapper;
-}
-
-.contentLeft {
-  @include mainContent(right);
-}
