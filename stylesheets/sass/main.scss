@@ -1,0 +1,24 @@
+// *** MAIN SASS FILE ***
+
+//IMPORTS
+
+@import 'helpers/reset';
+@import 'helpers/vars';
+@import 'helpers/mixins';
+@import 'helpers/placeholders';
+
+@import 'pages/index';
+@import 'pages/footerform';
+
+body {
+
+
+}
+
+.content {
+  @include mainContentWrapper;
+}
+
+.contentLeft {
+  @include mainContent(right);
+}
