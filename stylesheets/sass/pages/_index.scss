@@ -1,20 +1,18 @@
 // Splash Index SCSS
 
+// NAVIGATION BAR START //
 
 #navBar {
-
   width: 100vw;
-  height: 60px;
-  border: 1px solid black;
-
+  height: 100px;
+  // border: 1px solid black;
 }
 
 #logo {
-
   margin-left: 25px;
-  margin-right: 600px;
-  height: 60px;
-  width: 100px;
+  margin-right: 550px;
+  height: 100px;
+  width: 160px;
   float: left;
   background: url('../../imgs/jonahLogo.png') no-repeat;
   background-size: 100%;
@@ -22,21 +20,64 @@
 }
 
 #navBar a {
-
-  margin-top: 22px;
+  margin-top: 32px;
   margin-right: 35px;
   margin-left: 35px;
   display: inline-block;
   text-align: center;
   font-family: roboto, sans-serf;
-  font-size: 15px;
+  font-size: 20px;
   text-decoration: none;
   color: #B61E36;
 }
 
 input[name=searchBox] {
-
   float: right;
-  margin-top: 20px;
+  width: 150px;
+  margin-top: 30px;
   margin-right: 50px;
+  &:focus{outline:none;}
+}
+// NAVIGATION BAR END //
+
+// MAIN BODY START //
+
+#mainBody {
+  position: absolute;
+  margin-top: 150px;
+  margin-right: 100px;
+  margin-left: 140px;
+  height: 700px;
+  width: 1000px;
+  background-color: #464646;
+
+}
+
+.tabs {
+  margin: auto;
+  font-family: robot-thin, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.tabs li {
+  position: relative;
+  left: 15%;
+  display: inline-block;
+  color: #fff;
+  padding: 10px;
+  height: 30px;
+  bottom: 50px;
+  background-color: #B61E36;
+}
+
+#wyoPic {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+  width: 90%;
+  height: 100%;
+  background: url('../../imgs/wyo.png') no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
