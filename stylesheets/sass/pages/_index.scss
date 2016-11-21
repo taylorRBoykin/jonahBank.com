@@ -1,16 +1,18 @@
 // Splash Index SCSS
 
+//---------- PAGE ONE BEGIN ----------//
 // NAVIGATION BAR START //
 
 #navBar {
+  position: static;
   width: 100vw;
   height: 100px;
-  // border: 1px solid black;
+  border: 1px solid black;
 }
 
 #logo {
   margin-left: 25px;
-  margin-right: 550px;
+  margin-right: 250px;
   height: 100px;
   width: 160px;
   float: left;
@@ -19,11 +21,18 @@
   background-position: center;
 }
 
-#navBar a {
-  margin-top: 32px;
+#searchWrap {
+  float: right;
+  margin-right: 75px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+#searchWrap a {
   margin-right: 35px;
   margin-left: 35px;
   display: inline-block;
+  letter-spacing: 2px;
   text-align: center;
   font-family: roboto, sans-serf;
   font-size: 20px;
@@ -32,21 +41,20 @@
 }
 
 input[name=searchBox] {
-  float: right;
   width: 150px;
-  margin-top: 30px;
   margin-right: 50px;
   &:focus{outline:none;}
 }
+
 // NAVIGATION BAR END //
+
+
 
 // MAIN BODY START //
 
 #mainBody {
-  position: absolute;
-  margin-top: 150px;
-  margin-right: 100px;
-  margin-left: 140px;
+  position: static;
+  margin: 150px 100px 0px 140px;
   height: 700px;
   width: 1000px;
   background-color: #464646;
@@ -58,6 +66,7 @@ input[name=searchBox] {
   font-family: robot-thin, sans-serif;
   font-size: 16px;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 .tabs li {
@@ -80,4 +89,164 @@ input[name=searchBox] {
   background: url('../../imgs/wyo.png') no-repeat;
   background-position: center;
   background-size: 100%;
+}
+// MAIN BODY END //
+
+
+
+// ATM AND LOCATOR START //
+#miniNav {
+  position: static;
+  height: 100px;
+  width: 1000px;
+  margin: 25px 100px 0px 140px;
+  background-color: #464646;
+  font-size: 22px;
+}
+
+.redBox {
+  position: relative;
+  top: 10px;
+  left: 15px;
+  margin: 0px 10px 0px 10px;
+  display: inline-block;
+  height: 80px;
+  width: 220px;
+  background-color: #B61E36;
+  font-family: roboto, sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 80px;
+  color: #fff;
+}
+
+.textHelp {
+  color: #B61E36;
+}
+// ATM AND LOCATOR END //
+
+
+
+// FDIC AND FRAUD ALERT PIC BEGIN //
+#picContainer {
+  position: static;
+  width: 1000px;
+  height:400px;
+  margin: 25px 100px 0px 140px;
+}
+
+.picBox {
+
+  position: relative;
+  display: inline-block;
+  height: 350px;
+  width: 490px;
+  background-color: #464646;
+}
+
+
+// LEFT PICTURE BOX START //
+#leftPic {
+  margin-right: 6px;
+}
+
+#fdic {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 100%;
+  background: url('../../imgs/fdic.png') no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+// LEFT PICTURE END //
+
+
+
+
+// RIGHT PICTURE BOX START //
+#rightPic {
+  margin-left: 10px;
+}
+
+#fraud {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 100%;
+  background: url('../../imgs/fraudAlert.png') no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+// RIGHT PICTURE END //
+
+
+
+// FOOTER START //
+#footerBar {
+  position: static;
+  width: 1000px;
+  height: 100px;
+  background-color: #464646;
+  margin: 0px 100px 20px 140px;
+}
+
+#footerBar ul {
+  position: relative;
+  height: 100px;
+  width: 700px;
+}
+
+#footerBar ul li {
+  position: relative;
+  display: inline-block;
+  left: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 100px;
+  text-align: center;
+  font-family: roboto-slab-regular, sans-serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+#footerPic {
+  position: relative;
+  top: -100px;
+  right: 25px;
+  width: 200px;
+  height: 100px;
+  float: right;
+  background: url('../../imgs/footerPic.png') no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+// FOOTER END //
+
+//---------- PAGE 1 END ----------//
+
+
+
+//---------- PAGE 2 BEGIN ----------//
+
+// ABOUT US BODY BEGIN //
+#aboutUs {
+  position: static;
+  margin: 150px 100px 0px 140px;
+  height: 700px;
+  width: 1000px;
+  background-color: #464646;
+}
+
+#aboutUsText {
+  margin: auto;
+  width: 900px;
+  height: 600px;
+  background-color: #fff;
+  font-family: roboto-slab-regular, sans-serif;
+}
+
+#aboutUsText li {
+  color: #B61E36;
 }

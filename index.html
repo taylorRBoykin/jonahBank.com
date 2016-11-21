@@ -5,35 +5,73 @@
 <head>
 
     <link rel="stylesheet" type="text/css" href="stylesheets/css/main.css" />
+    <script src="https://use.typekit.net/kjb2our.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
 
 </head>
+
+
 
 
 <body>
 
     <div id="navBar">
-
         <div id="logo"></div>
-        <a href="">HOME</a>
-        <a href="">CONTACT US</a>
-        <input type="search" name="searchBox" placeholder="Search..." />
-
+        <div id="searchWrap">
+            <a href="">HOME</a>
+            <a href="">CONTACT US</a>
+            <input type="search" name="searchBox" placeholder="Search..." />
+        </div>
     </div>
 
 
 
     <div id="mainBody">
-
         <ul class="tabs">
             <li>Personal Banking</li>
             <li>Business Banking</li>
             <li>Lending</li>
-            <li>About Us</li>
+            <li><a href="stylesheets/sass/pages/aboutUs.html">About Us</a></li>
             <li>Resources</li>
         </ul>
-
         <div id="wyoPic"></div>
+    </div>
 
+
+
+    <div id="miniNav">
+        <div class="redBox"><span class="textHelp">W</span></div>
+        <div class="redBox">ATM Locator</div>
+        <div class="redBox">Calculators</div>
+        <div class="redBox"><span class="textHelp">W</span></div>
+    </div>
+
+
+
+    <div id="picContainer">
+        <div class="picBox" id="leftPic">
+            <div id="fdic"></div>
+        </div>
+        <div class="picBox" id="rightPic">
+            <div id="fraud"></div>
+        </div>
+    </div>
+
+    <div id="footerBar">
+        <ul>
+            <li>Secure Message Center |</li>
+            <li>Security |</li>
+            <li>Privacy |</li>
+            <li>Site Map |</li>
+            <li>Property For Sale</li>
+        </ul>
+        <div id="footerPic"></div>
     </div>
 
 </body>
